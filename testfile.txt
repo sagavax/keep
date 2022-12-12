@@ -1,0 +1,1 @@
+INSERT INTO eis.tblcustomer_notes (cust_id, cat_id, title, note,note_type,date_created) SELECT 0,0,diary_title, diary_text,'note', NOW() FROM keep WHERE id=274
